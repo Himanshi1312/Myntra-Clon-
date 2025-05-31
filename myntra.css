@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+/* Navigation section  */
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent 90%, #f5efef 100%)
+}
+.myntra_home{
+    height: 56px;
+     width: 66px; 
+}
+.logo_container{
+    margin-left: 3%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-size: 13px;
+    letter-spacing: .2px;
+    color: #474953;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 0;
+}
+.nav_bar a:hover{
+    border-bottom: 3px solid #ff3f6c;
+}
+ .nav_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px; 
+}
+.search_bar{
+    height: 40px;
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+ .search_input:focus{
+   background-color: #ffff;
+   outline: none;
+} 
+ .search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+      color: #828285;  
+      font-weight: 300;
+      border-radius: 3px 0 0 3px;
+} 
+
+.action_bar{
+    margin-right: 4%;
+     display: flex;
+     min-width: 200px;
+     justify-content: space-between;   
+}
+.action_bar:hover{
+    cursor: pointer;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+     color: #474953;
+     font-weight: 300;
+
+}
+.action_container span{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Main Section  */
+.banner_container{
+    /* width: 100vw; */
+    height: 66vh;
+    
+}
+.banner_img{
+    background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/10/7feef02b-0072-4c1b-b83d-4e46a5d93c6b1649530621162-Sangria_Desk_Banner.jpg");
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 56vh;
+    background-size: 100vw 56vh;
+    margin-top: 38px;
+    cursor: pointer;
+}
+/* Category Heading Section */
+.category_heading{
+      height: 110px;
+    padding: 16px;
+    font-size: 1.7em;
+    color: #3e4152;
+    letter-spacing: .15em;
+    max-height: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Category items */
+.category_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 210px;
+    margin-left: 46px;
+}
+/* category brands */
+.Top_brands{
+    margin-top: 25px;
+    height: 110px;
+    padding: 16px;
+    font-size: 1.7em;
+    color: #3e4152;
+    letter-spacing: .15em;
+    max-height: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* footer section */
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright{
+    color: #94969f;
+    text-align: center;
+    padding: 15px;
+    background: #FAFBFC;
+}
+
